@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ruta Gastronómica — Guadalajara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="tw-config.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-stone-200 font-sans antialiased">
+
+  <div id="site-nav"></div>
+
+  <!-- HERO -->
+  <section class="relative h-screen flex items-center justify-center overflow-hidden grain-hero">
+    <div class="hero-bg-img" style="background-image:url('imagenes/comida/ruta_gastronomica.jpg');"></div>
+    <div class="hero-overlay"></div>
+    <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <p class="fade-up text-xs tracking-[0.55em] text-gold uppercase mb-8 font-medium">Jalisco · México</p>
+      <h1 class="fade-up-1 font-display font-light leading-none text-white tracking-tight"
+          style="font-size: clamp(3.5rem, 10vw, 8rem);">
+        RUTA GASTRONÓMICA
+      </h1>
+      <div class="fade-up-2 gold-line mx-auto my-7"></div>
+      <p class="fade-up-3 font-display italic text-stone-300 font-light"
+         style="font-size: clamp(1rem, 2vw, 1.5rem);">
+        Sabores que cuentan nuestra historia
+      </p>
+    </div>
+    <div class="scroll-arrow">↓</div>
+  </section>
+
+  <!-- ── PLATILLOS ──────────────────────────────────────── -->
+  <section class="py-28 px-6 bg-dark">
+    <div class="max-w-5xl mx-auto">
+
+      <div class="text-center mb-20">
+        <p class="text-xs tracking-[0.45em] text-gold uppercase mb-4">Platillos Emblemáticos</p>
+        <h2 class="font-display text-6xl md:text-7xl font-light text-white">La Esencia de Jalisco</h2>
+        <div class="gold-line mx-auto mt-6"></div>
+        <p class="text-stone-500 mt-4 text-sm">La cocina tapatía en cada bocado</p>
+      </div>
+
+      <div class="flex flex-col gap-20">
+
+        <!-- ── TORTA AHOGADA ── -->
+        <article class="group">
+          <!-- Imagen cinematic con aspect-ratio fijo -->
+          <div class="shimmer-wrap relative overflow-hidden w-full" style="aspect-ratio: 16/7;">
+            <img src="./imagenes/comida/torta.jpg" alt="Torta Ahogada"
+                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.06]">
+            <!-- Gradiente permanente en la parte inferior -->
+            <div class="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/30 to-transparent"></div>
+            <!-- Badge -->
+            <div class="absolute top-5 right-5 z-10">
+              <span class="text-[0.62rem] tracking-[0.18em] uppercase text-gold border border-gold/40 px-3 py-1 bg-dark/60 backdrop-blur-sm">Jalisco</span>
+            </div>
+            <!-- Floating label on hover -->
+            <div class="absolute inset-x-0 bottom-6 px-8 z-10 pointer-events-none">
+              <p class="img-label-sub text-xs tracking-[0.28em] uppercase text-gold-lt mb-2">El ícono tapatío por excelencia</p>
+              <h3 class="img-label-title font-display text-4xl text-white font-light">Torta Ahogada</h3>
+            </div>
+          </div>
+
+          <!-- Contenido -->
+          <div class="pt-10 pb-2 border-b border-d4">
+            <div class="flex items-baseline gap-4 mb-5">
+              <h3 class="font-display text-4xl text-white font-light">Torta Ahogada</h3>
+              <span class="text-sm text-gold italic font-display">El ícono tapatío por excelencia</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <p class="text-stone-400 leading-relaxed text-sm">
+                La torta ahogada es el platillo más representativo de Guadalajara. Se elabora con birote salado — un pan de consistencia firme y crujiente con sabor ligeramente agrio — que se sumerge generosamente en salsa picante de chile de árbol de Yahualica, conocida por su aroma penetrante y picor característico.
+              </p>
+              <p class="text-stone-400 leading-relaxed text-sm">
+                El birote se rellena con carnitas de cerdo estilo Jalisco, se condimenta con vinagre, comino y ajo, y se completa con salsa de jitomate y rebanadas de cebolla desflemada en limón.
+              </p>
+            </div>
+            <div class="tradition-box p-5 mb-6">
+              <p class="text-xs tracking-[0.3em] uppercase text-gold mb-3">Tradición</p>
+              <p class="text-stone-400 text-sm leading-relaxed italic font-display text-lg">
+                "Las tortas ahogadas recibieron su nombre porque tradicionalmente se sumergían en chile hasta que salieran burbujas."
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ── CARNE EN SU JUGO ── -->
+        <article class="group">
+          <div class="shimmer-wrap relative overflow-hidden w-full" style="aspect-ratio: 16/7;">
+            <img src="./imagenes/comida/carne.jpg" alt="Carne en su Jugo"
+                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.06]">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/30 to-transparent"></div>
+            <div class="absolute top-5 right-5 z-10">
+              <span class="text-[0.62rem] tracking-[0.18em] uppercase text-gold border border-gold/40 px-3 py-1 bg-dark/60 backdrop-blur-sm">Acatic, Jalisco</span>
+            </div>
+            <div class="absolute inset-x-0 bottom-6 px-8 z-10 pointer-events-none">
+              <p class="img-label-sub text-xs tracking-[0.28em] uppercase text-gold-lt mb-2">Tradición nacida en Acatic</p>
+              <h3 class="img-label-title font-display text-4xl text-white font-light">Carne en su Jugo</h3>
+            </div>
+          </div>
+          <div class="pt-10 pb-2 border-b border-d4">
+            <div class="flex items-baseline gap-4 mb-5">
+              <h3 class="font-display text-4xl text-white font-light">Carne en su Jugo</h3>
+              <span class="text-sm text-gold italic font-display">Tradición nacida en Acatic, Jalisco</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <p class="text-stone-400 leading-relaxed text-sm">
+                Creado por la familia de la Torre en Piedra Amarilla, municipio de Acatic. Consiste en carne de res finamente picada y asada en su propio jugo, combinada con frijoles de la olla y trozos de tocino previamente dorado hasta el punto perfecto.
+              </p>
+              <p class="text-stone-400 leading-relaxed text-sm">
+                Servido en plato de barro con cebolla picada, cilantro fresco, tortillas de maíz recién hechas, totopos, guacamole cremoso y salsa picante. El barrio de Santa Tere concentra los mejores expendios especializados.
+              </p>
+            </div>
+            <div class="tradition-box p-5 mb-6">
+              <p class="text-xs tracking-[0.3em] uppercase text-gold mb-3">Un Clásico Moderno</p>
+              <p class="text-stone-400 text-sm leading-relaxed italic font-display text-lg">
+                "Aunque no es un platillo ancestral, se ha convertido en un favorito de los tapatíos, disfrutado en toda la metrópoli."
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ── JERICALLA ── -->
+        <article class="group">
+          <div class="shimmer-wrap relative overflow-hidden w-full" style="aspect-ratio: 16/7;">
+            <img src="./imagenes/comida/jericalla.jpg" alt="Jericalla"
+                 class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-[1.06]">
+            <div class="absolute inset-0 bg-gradient-to-t from-dark/85 via-dark/30 to-transparent"></div>
+            <div class="absolute top-5 right-5 z-10">
+              <span class="text-[0.62rem] tracking-[0.18em] uppercase text-gold border border-gold/40 px-3 py-1 bg-dark/60 backdrop-blur-sm">Postre Típico</span>
+            </div>
+            <div class="absolute inset-x-0 bottom-6 px-8 z-10 pointer-events-none">
+              <p class="img-label-sub text-xs tracking-[0.28em] uppercase text-gold-lt mb-2">El dulce legado del Hospicio Cabañas</p>
+              <h3 class="img-label-title font-display text-4xl text-white font-light">Jericalla</h3>
+            </div>
+          </div>
+          <div class="pt-10 pb-2 border-b border-d4">
+            <div class="flex items-baseline gap-4 mb-5">
+              <h3 class="font-display text-4xl text-white font-light">Jericalla</h3>
+              <span class="text-sm text-gold italic font-display">El dulce legado del Hospicio Cabañas</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <p class="text-stone-400 leading-relaxed text-sm">
+                Este postre emblemático lleva el nombre de Jérica, un pueblo de Valencia, España, lugar de origen de la monja que cocinaba para los niños huérfanos del Hospicio Cabañas. Al olvidar el postre en el horno, descubrió accidentalmente su característica capa dorada.
+              </p>
+              <p class="text-stone-400 leading-relaxed text-sm">
+                Un sabor que evoca al flan pero con consistencia más ligera, coronada por esa deliciosa capa de leche quemada inconfundible. Hoy la jericalla goza de reconocimiento internacional y es uno de los postres favoritos de los hogares mexicanos.
+              </p>
+            </div>
+            <div class="tradition-box p-5 mb-6">
+              <p class="text-xs tracking-[0.3em] uppercase text-gold mb-3">De Guadalajara al Mundo</p>
+              <p class="text-stone-400 text-sm leading-relaxed italic font-display text-lg">
+                "Su delicioso sabor y fácil elaboración la han convertido en un postre insignia de la región."
+              </p>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── OTROS SABORES ─────────────────────────────────── -->
+  <section class="py-20 px-6 bg-d2">
+    <div class="max-w-5xl mx-auto">
+      <div class="text-center mb-14">
+        <p class="text-xs tracking-[0.45em] text-gold uppercase mb-4">También imperdibles</p>
+        <h2 class="font-display text-4xl md:text-5xl font-light text-white">Otros Sabores Tapatíos</h2>
+        <div class="gold-line mx-auto mt-5"></div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div class="border border-d4 p-8 hover:border-gold/40 transition-colors duration-300 group">
+          <p class="text-xs tracking-[0.35em] uppercase text-gold mb-4">Tradición</p>
+          <h3 class="font-display text-2xl text-white font-light mb-3 group-hover:text-gold-lt transition-colors duration-300">Birria</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">Platillo de origen prehispánico preparado con carne marinada en adobo y cocida lentamente en horno de tierra.</p>
+        </div>
+        <div class="border border-d4 p-8 hover:border-gold/40 transition-colors duration-300 group">
+          <p class="text-xs tracking-[0.35em] uppercase text-gold mb-4">Festivo</p>
+          <h3 class="font-display text-2xl text-white font-light mb-3 group-hover:text-gold-lt transition-colors duration-300">Pozole Rojo</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">Caldo con maíz cacahuazintle, carne de cerdo y chile guajillo, servido con tostadas, rábano y orégano.</p>
+        </div>
+        <div class="border border-d4 p-8 hover:border-gold/40 transition-colors duration-300 group">
+          <p class="text-xs tracking-[0.35em] uppercase text-gold mb-4">Refrescante</p>
+          <h3 class="font-display text-2xl text-white font-light mb-3 group-hover:text-gold-lt transition-colors duration-300">Tejuino</h3>
+          <p class="text-stone-500 text-sm leading-relaxed">Bebida de maíz fermentado con piloncillo, servida con limón, sal y nieve de limón. Infaltable en el verano tapatío.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPLORE MORE -->
+  <section class="py-16 px-6 bg-dark border-t border-d4">
+    <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+      <p class="font-display text-2xl text-stone-400 italic">Continúa tu viaje por Guadalajara</p>
+      <div class="flex gap-4">
+        <a href="sitios.html"  class="text-xs tracking-[0.2em] uppercase text-stone-400 border border-d4 hover:border-gold hover:text-gold px-5 py-2.5 transition-all duration-300">Sitios</a>
+        <a href="cultura.html" class="text-xs tracking-[0.2em] uppercase bg-gold text-dark px-5 py-2.5 hover:bg-gold-dk transition-colors duration-300 font-medium">Cultura</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <script src="components.js"></script>
+</body>
+</html>
